@@ -23,7 +23,9 @@
     font-size: 14px;
     transition: all 0.2s linear;
 }
-
+.movie-item__add-button:disabled{
+    opacity: 0.3;
+}
 .movie-item__add-button:hover {
     cursor: pointer;
     opacity: 0.7;
