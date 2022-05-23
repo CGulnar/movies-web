@@ -1,0 +1,63 @@
+.movie-item {
+    padding: 20px;
+    background-color: #df98d4;
+    display: flex;
+}
+
+.movie-item__poster {
+    height: 150px;
+    margin-right: 21px;
+}
+
+.movie-item__title {
+    font-weight: 500;
+    font-size: 21px;
+    margin-bottom: 14px;
+}
+
+.movie-item__add-button {
+    border: none;
+    background-color: #8f2bbc;
+    padding: 10px 15px;
+    color: #FFEEDB;
+    font-size: 14px;
+    transition: all 0.2s linear;
+}
+
+.movie-item__add-button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s linear;
+}
+
+@media screen and (max-width:400px) {
+    .movie-item {
+        width: 100px;
+        padding: 15px;
+        padding-right: 100px;
+        background-color: #df98d4;
+        display: flex;
+        margin-left: -20px;
+    }
+    
+    .movie-item__poster {
+        height: 120px;
+        margin-right: 20px;
+    }
+    
+    .movie-item__title {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    
+    .movie-item__add-button {
+        border: none;
+        background-color: #8f2bbc;
+        padding: 5px 15px;
+        color: #FFEEDB;
+        font-size: 12px;
+        transition: all 0.2s linear;
+    }
+     
+}

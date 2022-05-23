@@ -1,0 +1,28 @@
+.header {
+    background: #a51890;
+    padding: 20px calc(50% - 500px) 10px;
+}
+
+.header__title {
+    font-family: 'Luckiest Guy', cursive;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:400px) {
+    .header {
+        width: 100%;
+        background: #a51890;
+        padding: 20px calc(100%) 10px calc(100%);
+    }
+
+    .header__title {
+        font-family: 'Luckiest Guy', cursive;
+        color: #FFEEDB;
+        font-size: 25px;
+        position: absolute;
+        left: 0px;
+        top: 5px;
+    }
+}
